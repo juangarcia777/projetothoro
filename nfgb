@@ -1,0 +1,9 @@
+ echo '<tr>';
+        echo '<td>'.$gestao['nome'].'</td>';
+        echo '<td>'.$gestao['rg'].'</td>';
+        echo '<td>'.$gestao['data_nasc'].'</td>';
+        echo '<td>'.$gestao['funcao'].'</td>';
+        echo '<td>'.$gestao['faixa_salarial'].'</td>';
+        echo '<td>'.$gestao['data_admissao'].'</td>';
+        echo '<td><a class="btn btn-danger btn-sm"data-toggle="modal" data-target="#box">Excluir</a> <hr/> <a class="btn btn-info btn-sm" href="editar.php?id='.$gestao['id'].'">Editar</a></td>';
+        echo '</tr>';

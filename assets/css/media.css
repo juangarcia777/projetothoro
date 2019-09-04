@@ -1,0 +1,33 @@
+@media screen and (max-width:600px) {
+
+
+    #caixalogin {
+        display: flex;
+        flex-direction : column;
+        
+    }
+    #caixalogin img {
+       width: 320px;
+       height:200px;
+    }
+   
+}
+
+@media screen and (max-width:470px) {
+
+    #caixalogin {
+        display: flex;
+        flex-direction : column;
+        
+    }
+    #caixalogin img {
+       width: 320px;
+       height:200px;
+    }
+  
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
