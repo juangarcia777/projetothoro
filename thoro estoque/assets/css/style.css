@@ -1,0 +1,25 @@
+@media screen and (min-width:600px) and (max-width:1080px) {
+
+#loading {
+    display: block;
+    margin-left: 100px;
+    margin-top:50px;
+}
+#imagem {
+    width:600px;
+    height:100px;
+}
+}
+
+@media screen and (max-width:600px){
+  
+    #imagem {
+        width:250px;
+        height:100px;
+    }
+
+    #loading {
+        display: inline;
+        margin-left:20px;
+    }
+}

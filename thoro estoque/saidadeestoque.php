@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Esthoro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
-<body style="background-color:#84A4A1">
+<body style="background-color:#F9F9F9">
 <div class="container">
+
+<?php
+ require_once 'topo.php';
+  ?>
+
+<div id="loading">
+    <img src="https://media.giphy.com/media/l0Iy29zHAcTFJ7jXO/giphy.gif" id="imagem" />
+</div>
+      <div id="conteudo" style="display: none">
 
 <div class="jumbotron bg-info" style="height:100px">
 <h1 style="text-align:center;font-size:30px ">Saída de Estoque.</h1>
@@ -103,7 +113,10 @@ foreach($lista as $item):
 </div>
 
 </div>
-<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>    
+</div>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>    
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>    
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

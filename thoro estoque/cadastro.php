@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Esthoro</title>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 </head>
 <body>
@@ -14,7 +15,12 @@
 include_once 'topo.php';
 ?>
 
-<div class="container-fluid" style="background-color:#CCC;padding-bottom:100px;">
+<div id="loading">
+    <img src="https://media.giphy.com/media/l0Iy29zHAcTFJ7jXO/giphy.gif" id="imagem" />
+</div>
+      <div id="conteudo" style="display: none">
+
+<div class="container-fluid" style="background-color:#F9F9F9;padding-bottom:100px;">
   <div class="jumbotron bg-ligth">
       <h1 class="display-3">Cadastro de Produtos</h1>
       <p class="lead">Insira Abaixo novo produto</p>
@@ -63,6 +69,7 @@ include_once 'topo.php';
 
 </div>
 
+    <script type="text/javascript" src="assets/js/script.js"></script>    
     <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>    
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
